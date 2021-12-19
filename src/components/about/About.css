@@ -1,0 +1,13 @@
+.about-title{
+    font-family: var(--abnaya-font);
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    color: var(--orange-color);
+    -webkit-text-stroke-width: medium;
+}
+
+.about-text {
+    font-family: var(--poppins-font);
+    font-size: 15px;
+}

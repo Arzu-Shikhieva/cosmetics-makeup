@@ -1,0 +1,21 @@
+.filter__title {
+    font-family: var(--poppins-font);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    color: var(--purple-color);
+}
+
+.form-select {
+    border: 2px solid var(--orange-color) !important;
+    font-family: var(--poppins-font) !important;
+    font-size: 15px !important;
+}
+
+.form-select > option:hover {
+    background-color: yellow !important;
+}
+
+.form-select > option {
+    font-size: 14px;
+}

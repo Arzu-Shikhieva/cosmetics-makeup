@@ -1,0 +1,102 @@
+
+.navbar {
+    padding: 0 !important;
+    margin: 32px 0;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 42px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: var(--black);
+    padding: 0 !important;
+    font-family: var(--poppins-font);
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: var(--orange-color);
+    transition: 0.2s;
+}
+
+.navbar-toggler{
+    background: var(--orange-color) !important;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    color: var(--white) !important;
+}
+
+.menu-link > .active {
+    color: var(--orange-color) !important;
+    font-weight: 700 !important;
+    border-bottom: 2px solid var(--orange-color) !important;
+}
+
+.icons span {
+    margin-left: 25px;
+}
+
+.navbar__icon {
+    color: var(--orange-color);
+}
+
+.navbar__icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.e-badge.e-badge-success:not(.e-badge-ghost):not([href]), .e-badge.e-badge-success[href]:not(.e-badge-ghost){
+    background-color: var(--pink-color);
+}
+
+.e-badge.e-badge-overlap{
+    top: 2px;
+    transform: translateX(-352%);
+}
+
+@media screen and (max-width: 992px){
+    /*.navbar-nav{*/
+    /*    display: flex !important;*/
+    /*    flex-direction: column !important;*/
+    /*    justify-content: center !important;*/
+    /*}*/
+    .menu-link > .active {
+        border-bottom: none !important;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-nav .nav-item{
+        margin-left: 0;
+    }
+    .form-inline {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .icons span{
+        margin-left: 0;
+    }
+    .e-badge {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .navbar__icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .user-icon {
+        margin-left: 20px;
+    }
+}

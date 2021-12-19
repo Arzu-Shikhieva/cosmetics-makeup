@@ -1,0 +1,26 @@
+.feature .feature__header {
+    margin-bottom: 62px;
+}
+
+.feature .feature__title {
+    font-family: var(--abnaya-font);
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 76px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: var(--title-color);
+}
+
+.feature .feature__subtitle {
+    font-family: var(--poppins-font);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--text-color);
+    text-align: center;
+    margin: 0 auto;
+
+    max-width: 829px;
+    width: 100%;
+}

@@ -1,0 +1,54 @@
+
+.noItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+}
+
+.noItem p {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: var(--abnaya-font);
+    color: var(--purple-color);
+}
+
+.table {
+    font-family: var(--poppins-font);
+}
+
+.table .thead-dark th {
+    background-color: var(--burgundy-color) !important;
+}
+
+td {
+    font-size: 14px;
+}
+
+.fa {
+    cursor: pointer;
+}
+
+.fa-trash {
+    color: var(--burgundy-color) !important;
+    cursor: pointer;
+}
+
+.fa-minus {
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 420px) {
+    .navbar-nav .nav-item .nav-link {
+        font-size: 13px;
+    }
+    .table .thead-dark th {
+        font-size: 12px;
+    }
+    .table td {
+        font-size: 12px;
+    }
+    .e-badge {
+        display: none;
+    }
+}
